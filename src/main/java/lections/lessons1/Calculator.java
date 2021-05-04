@@ -41,7 +41,7 @@ public class Calculator {
      *
      * @param first  - множимое
      * @param second - множитель
-     * @return произведение
+     * @return произведениеt
      */
 
     int multiply(int first, int second) {
