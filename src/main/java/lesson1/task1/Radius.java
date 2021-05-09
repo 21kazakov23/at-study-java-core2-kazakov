@@ -2,8 +2,8 @@ package lesson1.task1;
 
 public class Radius {
 
-    float calculateArea(int radiusA, int radiusB, float pi) {
-        float result = radiusA * radiusB * pi;
+    float calculateArea(int radiusA, float pi) {
+        float result = radiusA * radiusA * pi;
         return result;
     }
 
@@ -13,9 +13,9 @@ public class Radius {
         final int b = 2;
         final int c = 100;
         final float pi = 3.14f;
-        float area1 = radius.calculateArea(a, a , pi);
-        float area2 = radius.calculateArea(b, b, pi);
-        float area3 = radius.calculateArea(c, c, pi);
+        float area1 = radius.calculateArea(a, pi);
+        float area2 = radius.calculateArea(b, pi);
+        float area3 = radius.calculateArea(c, pi);
         System.out.println(area1);
         System.out.println(area2);
         System.out.println(area3);
