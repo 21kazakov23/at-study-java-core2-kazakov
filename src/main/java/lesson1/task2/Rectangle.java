@@ -9,7 +9,7 @@ public class Rectangle {
         System.out.println(rectangle.isSquareBiggerThanPerimeter(6, 3));
     }
 
-    boolean isSquareBiggerThanPerimeter(int weight, int hight ) {
+    boolean isSquareBiggerThanPerimeter(int weight, int hight) {
         int square = hight * weight;
         int perimeter = 2 * (hight + weight);
         return square > perimeter;

@@ -8,6 +8,7 @@ public class Meter {
         System.out.println(meter.centimeter(278));
 
     }
+
     int centimeter(int a) {
         int b = a / 100;
         return b;
