@@ -1,5 +1,5 @@
 # Default ignored files
-.idea/
+#.idea/
 atstudyjavacore.iml
-target
-.github
+#target/
+#.github
