@@ -1,5 +1,6 @@
 # Default ignored files
 atstudyjavacore.iml
-target/
+/target/
 .github
 /.idea/
+/at-study-java-core-kazakov.iml
